@@ -22,7 +22,7 @@ namespace EmptyTemplate
         }
 
 
-       
+
         private void Register_Btn_Click(object sender, RoutedEventArgs e)
         {
             var login = Form_Login.Text.Trim();
@@ -76,8 +76,8 @@ namespace EmptyTemplate
 
         private void Pas_Changed(object sender, RoutedEventArgs e)
         {
-             
-            if(Form_password.Password.Length < 5)
+
+            if (Form_password.Password.Length < 5)
             {
                 Form_password.BorderBrush = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#B00020"));
                 Pas_stat.Text = "Password too short";
